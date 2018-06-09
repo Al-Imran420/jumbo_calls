@@ -1,0 +1,284 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Virtkom - JumboCalls</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<!--------Start Design SCC---------->
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/bootstrap-theme.css" rel="stylesheet" />
+<link href="css/style.css" rel="stylesheet" />
+<!--------End Design SCC---------->
+ 
+<!--------Start JS---------->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<!--------End JS---------->
+
+<script>
+$( document.body ).on( 'click', '.dropdown-menu li', function( event ) {
+ 
+   var $target = $( event.currentTarget );
+ 
+   $target.closest( '.btn-group' )
+      .find( '[data-bind="label"]' ).text( $target.text() )
+         .end()
+      .children( '.dropdown-toggle' ).dropdown( 'toggle' );
+ 
+   return false;
+ 
+});
+</script>
+
+</head>
+
+<body>
+
+<div class="main_warpper">
+	<section class="main">
+        <!-------Start Top Header--------->
+        <div class="top_header">
+            <div class="container">
+                <div class="main">
+                     <div class="top_header_left">
+                        <div class="main">
+                            <div class="logo"><a href="index.html"><img src="images/logo.png" title="JumboCalls" /></a></div>
+                        </div>
+                    </div>
+                     <div class="navresarea">
+                        <div class="navresareaauto">
+                            <div class="top_header_nav">
+                                <nav class="navbar navbar-default" role="navigation">
+                                    <!-- Brand and toggle get grouped for better mobile display -->
+                                    <div class="navbar-header">
+                                      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                                        <span class="sr-only">Toggle navigation</span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                      </button>
+                                    </div>
+                                
+                                    <!-- Collect the nav links, forms, and other content for toggling -->
+                                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                      <ul class="nav navbar-nav">
+                                        <li><a href="#">Home</a></li>
+                                        <!--<li class="active"><a href="#">Home<span class="sr-only">(current)</span></a></li>-->
+                                        <li><a href="#">About</a></li>
+                                        <li><a href="#">Pricing</a></li>
+                                        <li><a href="#">FAQ</a></li>
+                                        <li><a href="#">Contact us</a></li>
+                                      </ul>
+                                    </div><!-- /.navbar-collapse -->
+                                </nav>
+                            </div>
+                            <div class="top_header_right">
+                                <div class="button_top">
+                                    <span class="signup"></span>SIGN UP
+                                </div>
+                                <div class="button_top">
+                                  <span class="login"></span>LOGIN
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+                </div>
+            </div>
+        </div>
+        <!-------End Top Header--------->
+    	<header class="header">
+        	<div class="header_bg">
+            
+            <div class="header_min">
+                
+                <!-------Start Banner--------->
+                <div class="banner">
+                    <div class="container">
+                        <div class="main">
+                            <div class="ribon">
+                                <div class="ribon_min">
+                                    <a href="#"><img src="images/striker.png" title="ribon" /></a>
+                                </div>
+                            </div>
+                            <div class="searce_area">
+                                <div class="searce_area_heading"><h1>Great International calls at low rates</h1></div>
+                                <div class="search">
+                                	<div class="main">
+                                        <form action="#" method="post">
+                                            <input class="searce_fild" type="search" name="search"  placeholder="Which country would you like to call?"/>
+                                            <div class="search_btn">
+                                                <div class="btn-group btn-input clearfix">
+                                                      <button type="button" class="btn btn-default dropdown-toggle form-control" data-toggle="dropdown">
+                                                        <span data-bind="label">USA</span> <span class="caret"></span>
+                                                      </button>
+                                                      <ul class="dropdown-menu" role="menu">
+                                                        <li><a href="#">UK</a></li>
+                                                        <li><a href="#">IT</a></li>
+                                                        <li><a href="#">BD</a></li>
+                                                      </ul>
+                                                      <script>
+                                                          $( document.body ).on( 'click', '.dropdown-menu li', function( event ) {
+                                                           
+                                                             var $target = $( event.currentTarget );
+                                                           
+                                                             $target.closest( '.btn-group' )
+                                                                .find( '[data-bind="label"]' ).text( $target.text() )
+                                                                   .end()
+                                                                .children( '.dropdown-toggle' ).dropdown( 'toggle' );
+                                                           
+                                                             return false;
+                                                           
+                                                          });
+                                                      </script>
+                                                    </div>
+                                                <input class="btn btn-default" style=" margin-right:1px;" type="submit" value="SEARCH" />
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-------End Banner--------->
+            </div>
+            </div>
+        </header>
+    </section>
+    <section class="main about_us">
+        <div class="container">
+            <div class="main">
+            	<div class="about_us_title"><h1>Contact Us</h1></div>
+                    <div class="about_us_text_area">
+                        <div class="main">
+                            <div class="col-sm-4">
+                                <address>
+                                	<strong>Email:</strong> <a href="mailto:#">support@jumbocalls.com</a><br><br>
+                                	<strong>Phone:</strong>+1404-932-0466<br><br>
+                                	<strong>Web:</strong><a href="#www.JumboCalls.com">www.JumboCalls.com</a>
+                                </address>
+                            </div>
+                                <div class="col-sm-8 contact-form">
+                                    <form id="contact" method="post" class="form" role="form">
+                                        <div class="row">
+                                            <div class="col-xs-6 col-md-6 form-group">
+                                                <input class="form-control" id="name" name="name" placeholder="Name" type="text" required autofocus />
+                                            </div>
+                                        <div class="col-xs-6 col-md-6 form-group">
+                                        <input class="form-control" id="email" name="email" placeholder="Email" type="email" required />
+                                        </div>
+                                        </div>
+                                        <textarea class="form-control" id="message" name="message" placeholder="Message" rows="5"></textarea>
+                                        <br />
+                                        <div class="row">
+                                            <div class="col-xs-12 col-md-12 form-group">
+                                                <button class="btn btn-primary pull-right" type="submit">Submit</button>
+                                            </div>
+                                        </div>
+                                    </form>   
+                                </div>
+                        </div>
+                    </div>
+          </div>          
+    </section>
+    <section class="main footer">
+        <div class="container">
+            <div class="main">
+            	 <div class="col-md-4">
+                 	<div class="footer_logo"><a href="#"><img src="images/logo.png" /></a></div>
+                 </div>
+                 <div class="col-md-8">
+                     <div class="footer_memu">
+                        <div class="col-md-3">
+                        	<div class="footer_title"><p>Slogans</p></div>
+                            <div class="footer_nav">
+                            	<ul>
+                                	<li><a href="#">No connection fees</a></li>
+                                    <li><a href="#">No hidden fees</a></li>
+                                    <li><a href="#">No contract</a></li>
+                                    <li><a href="#">clearer calls</a></li>
+                                    <li><a href="#">lower rates</a></li>
+                                    <li><a href="#">Creative packages</a></li>
+                                    <li><a href="#">loyalty rewards</a></li>
+                                    <li><a href="#">Promotions</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                        	<div class="footer_title"><p>Service</p></div>
+                            <div class="footer_nav">
+                            	<ul>
+                                	<li><a href="#">Calling Card Services</a></li>
+                                    <li><a href="#">Pinless Calling Service</a></li>
+                                    <li><a href="#">International Callback Service</a></li>
+                                    <li><a href="#">Mobile Application Provider</a></li>
+                                    <li><a href="#">International Mobile Top Up</a></li>
+                                    <li><a href="#">Residencial Service</a></li>
+                                  </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                        	<div class="footer_title"><p>Support</p></div>
+                            <div class="footer_nav">
+                            	<ul>
+                                	<li><a href="#">support@jumbocalls.com</a></li>
+                                    <li><a href="#">+1404-932-0466</a></li>
+                                    <li><a href="#">www.JumboCalls.com</a></li>
+                                 </ul>
+                            </div>
+                        </div>
+                        <!--<div class="col-md-2">
+                        	<div class="footer_title"><p>Social</p></div>
+                            <div class="footer_nav">
+                            	<ul>
+                                	<li><a href="#">E-mail</a></li>
+                                    <li><a href="#">Facebook</a></li>
+                                    <li><a href="#">Gmail</a></li>
+                                    <li><a href="#">Linkedin</a></li>
+                                 </ul>
+                            </div>
+                        </div>-->
+                        <div class="col-md-3">
+                        	<div class="footer_title"><p>Language</p></div>
+                            <div class="footer_nav">
+                            	<ul>
+                                	<li><a href="#">English</a></li>
+                                    <li><a href="#">Espanol</a></li>
+                                    <li><a href="#">Francais</a></li>
+                                 </ul>
+                            </div>
+                        </div>
+                     </div>
+                     <div class="footernavmain">
+                     	<div class="copyrightarea">
+                            <div class="apparea">
+                                <div class="apparealeft"><a href="#"><img src="images/apps_store.png" /></a></div>
+                                <div class="apparearight"><a href="#"><img src="images/googleplay.png" /></a></div>
+                            </div>
+                            <div class="apparename">
+                                <p>Virtkom</p>
+                            </div>
+                            <div class="apparea">
+                                <div class="apparename_link">
+                                    <ul>
+                                      <li><a href="#">@2014 Virtkom</a></li>
+                                      <li class="flikpad"><a href="#"><img src="images/flickr.png" /></a></li>
+                                      <li><a href="#"><img src="images/picasa.png" /></a></li>
+                                      <li><a href="#"><img src="images/google.png" /></a></li>
+                                      <li><a href="#"><img src="images/twitter.png" /></a></li>
+                                      <li><a href="#"><img src="images/facebook.png" /></a></li>
+                                 </ul>
+                                </div>
+                             </div>
+                        </div>
+                     </div>
+                  </div>
+            </div>
+        </div>
+   </section>
+ </div>
+
+</body>
+</html>
